@@ -1,0 +1,52 @@
+.Info {
+    font-size: large;
+}
+
+.Meerdere {
+    font-size: medium;
+}
+
+.Contact {
+    font-size: small;
+}
+
+.Beginpagina {
+    color: black;
+    background-color: #b2d8da;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    align-items: end;
+    /* float: left; */
+}
+
+.fotos a {
+    display: block;
+    width: 150px;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+ .fotos a:hover {
+    color: black;
+}
+    
+@media screen and (max-width: 500px) {
+    .fotos {
+        grid-template-columns: auto;
+    }
+}
+    
+.Gegevens {
+    display: grid;
+}
+    
